@@ -1,6 +1,6 @@
 const courses = [
   {
-    _id: 1,
+    _id: '1',
     name: "English Language Course",
     image: "/images/Languages.png",
     description:
@@ -11,7 +11,7 @@ const courses = [
     numReviews: 12,
   },
   {
-    _id: 2,
+    _id: '2',
     name: "Coding Course",
     image: "/images/Coding.png",
     description: "Learn how to become Full stack Developer in no time NOW!!",
@@ -21,7 +21,7 @@ const courses = [
     numReviews: 8,
   },
   {
-    _id: 3,
+    _id: '3',
     name: "Tennis Course",
     image: "/images/Tennis.png",
     description:
@@ -33,7 +33,7 @@ const courses = [
     numReviews: 12,
   },
   {
-    _id: 4,
+    _id: '4',
     name: "Make Money Course",
     image: "/images/Money.png",
     description:
@@ -44,7 +44,7 @@ const courses = [
     numReviews: 12,
   },
   {
-    _id: 5,
+    _id: '5',
     name: "Dating Course",
     image: "/images/Dating.png",
     description:
