@@ -1,0 +1,23 @@
+{
+  "name": "socializers",
+  "version": "1.0.0",
+  "description": "MERN Social Club App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedAlhawamdeh/socializers.git"
+  },
+  "keywords": [],
+  "author": "Mohammed Alhawamdeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammedAlhawamdeh/socializers/issues"
+  },
+  "homepage": "https://github.com/MohammedAlhawamdeh/socializers#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
