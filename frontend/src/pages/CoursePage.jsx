@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Row, Col, Image, ListGroup, Card, Button } from "react-bootstrap";
 import Rating from "../Components/Rating";
-import courses from "../courses.js";
+import axios from "axios";
 
 const CoursePage = ({ match }) => {
-  const course = courses.find((c) => c._id === match.params.id);
+  const [course, setCourse] = useState({});
+  useEffect(() => {
+    const fetchCourse = async () => {
+      const { data } = await axios.get(`/api/courses/${match.params.id}`);
+      setCourse(data);
+    };
+    fetchCourse();
+  }, []);
   return (
     <>
       <Link className="btn btn-light my-3" to="/">
